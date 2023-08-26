@@ -8,7 +8,7 @@ import Search from './components/Search';
 
 function App() {
   return (
-    <div className="App text-white overflow-hidden">
+    <div className="App text-white overflow-hidden ">
       <Header />
       <Hero />
       <Experience />

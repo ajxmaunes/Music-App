@@ -40,26 +40,26 @@ function Hero() {
     
   return (
     <VisibilitySensor onChange={(isVisible) => setElementIsVisible(isVisible)} minTopValue={300}>
-    <div className="wrapper bg-[#081730] flex items-center justify-between px-[10rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]">
+    <div className="wrapper bg-[#081730] sm:flex items-center justify-center px-[10rem] max-sm:px-[1rem] rounded-b-[5rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3]">
         {/* left side */}
-        <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
+        <div className="headings flex flex-col items-start max-sm:items-center justify-center h-[100%] text-[3rem] max-sm:text-[3rem]">
             <span>Experience The</span> 
             <span>
                 <b>Best Quality Music</b>
             </span>
-            <span className='text-[15px] text-[#525D6E]'>
+            <span className='text-[15px] text-[#525D6E] max-sm:text-center'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, maiores?
                 <br />
                 Lorem ipsum dolor sit amet consectetur.
             </span>
             {/* download ads */}
-            <div>
+            <div className='max-sm:text-center'>
                 <span className='text-[13px]'>Download now on IOS and Android</span>
                 <DownloadAds />
             </div>
         </div>
         {/* right side */}
-        <div className="images relative w-[50%]">
+        <div className="images relative w-[50%] max-sm:invisible">
             <motion.img
                 variants={bg}
                 animate={`${elementIsVisible}`}

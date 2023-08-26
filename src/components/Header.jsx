@@ -4,13 +4,14 @@ import CenterMenu from './CenterMenu'
 function Header() {
     const buttonStyle = 'border-[2px] rounded-[10px] border-[#232A4E] px-[25px] py-[7px]'
   return (
-    <div className="header bg-[#081730] flex items-center justify-between px-[10rem] pt-[2.4rem]">
+    <div className="header bg-[#081730] flex max-sm:flex-col items-center justify-between px-[10rem] max-sm:px-[0rem] pt-[2.4rem]">
         {/* logo */}
-        <img src={require("../img/MuzicLogo.png")} alt="" className='logo w-[42px] h-[]42px' />
+        <img src={require("../img/MuzicLogo.png")} alt="" className='logo w-[52px] h-[52px]' />
+        
         {/* side menu */}
         <CenterMenu/>
         {/* buttons */}
-        <div className="buttons flex">
+        <div className="buttons max-sm:mt-[1rem]">
             <button className={`mr-[35px] hover:bg-[#232A4E] ` + buttonStyle}>Log in</button>
             <button className={buttonStyle + ` bg-[#232A4E]`}>Sign up</button>
         </div>

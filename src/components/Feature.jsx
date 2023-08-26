@@ -18,7 +18,7 @@ function Feature({ icon, title}) {
       onChange={(isVisible) => setElementIsVisible(isVisible)}
       // minTopValue={100}
     >
-    <div className="feature flex items-center justify-center flex-col relative text-center mx-12">
+    <div className="feature flex items-center justify-center flex-col relative text-center mx-12 max-sm:mt-[3rem]">
       {/* icon */}
       <motion.div
         variants={variant}
@@ -38,7 +38,7 @@ function Feature({ icon, title}) {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum voluptate earum!
       </span>
 
-      <span className='text-[#E600FF] underline mt-[3rem] hover:cursor-pointer'>Learn more</span>
+      <span className='text-[#E600FF] underline mt-[3rem] max-sm:mt-[0] hover:cursor-pointer'>Learn more</span>
     </div>
     </VisibilitySensor>
   )

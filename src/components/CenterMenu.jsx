@@ -3,7 +3,7 @@ import React from 'react'
 function CenterMenu() {
     const liStyle = "mr-[3rem] hover:cursor-pointer"
   return (
-    <div className="menu flex">
+    <div className="menu flex max-sm:invisible">
         <ul className='flex w-[100%] justify-between'>
             <li className={liStyle}>Home</li>
             <li className={liStyle}>About</li>
