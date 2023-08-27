@@ -2,7 +2,7 @@ import React from 'react'
 
 function MusicPlayer() {
   return (
-    <div className='musicPlayer flex flex-col px-5 w-[100%] border-2 border-black py-3 bg-[#232A4E] rounded-xl mt-5'>
+    <div className='musicPlayer flex flex-col px-5 w-[100%] border-2 border-black py-3 bg-[#232A4E] rounded-xl mt-5 max-sm:mt-[3rem]'>
         {/* Upper Part */}
         <div className='upperPart flex items-center justify-between'>
             {/* profile */}
@@ -10,9 +10,9 @@ function MusicPlayer() {
                 <img 
                     src={require("../img/Mask Group 23.png")} 
                     alt=""
-                    className='w-[2.5rem] h-[2.5rem] border-2 border-white rounded-full' 
+                    className='w-[2.5rem] max-sm:w-[2.2rem] h-[2.5rem] max-sm:h-[2.2rem] border-2 border-white rounded-full' 
                 />
-                <div className="details flex-col ml-4">
+                <div className="details flex-col ml-4 max-sm:ml-2">
                     <span className='text-[1rem]'>Lorem, ipsum dolor.</span>
                     <span className='text-sm text-gray-500'>Unknown Artist</span>
                 </div>
@@ -29,7 +29,7 @@ function MusicPlayer() {
             <img 
                 src={require("../img/Group 9.png")} 
                 alt=""
-                className='w-[16rem]' 
+                className='w-[16rem] max-sm:w-[7.5rem]' 
             />
             <span>4: 30</span>
             </div>

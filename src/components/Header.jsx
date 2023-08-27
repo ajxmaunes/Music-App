@@ -11,7 +11,7 @@ function Header() {
         {/* side menu */}
         <CenterMenu/>
         {/* buttons */}
-        <div className="buttons max-sm:mt-[1rem]">
+        <div className="buttons max-sm:mt-[-2rem]">
             <button className={`mr-[35px] hover:bg-[#232A4E] ` + buttonStyle}>Log in</button>
             <button className={buttonStyle + ` bg-[#232A4E]`}>Sign up</button>
         </div>

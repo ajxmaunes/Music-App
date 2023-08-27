@@ -40,9 +40,9 @@ function Hero() {
     
   return (
     <VisibilitySensor onChange={(isVisible) => setElementIsVisible(isVisible)} minTopValue={300}>
-    <div className="wrapper bg-[#081730] sm:flex items-center justify-center px-[10rem] max-sm:px-[1rem] rounded-b-[5rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3]">
+    <div className="wrapper bg-[#081730] sm:flex items-center justify-center px-[10rem] max-sm:px-[1rem] rounded-b-[5rem] max-sm:rounded-b-[3rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3] max-sm:mt-[-1px]">
         {/* left side */}
-        <div className="headings flex flex-col items-start max-sm:items-center justify-center h-[100%] text-[3rem] max-sm:text-[3rem]">
+        <div className="headings flex flex-col items-start max-sm:items-center justify-center h-[100%] text-[3rem] max-sm:text-[2.5rem] ">
             <span>Experience The</span> 
             <span>
                 <b>Best Quality Music</b>
