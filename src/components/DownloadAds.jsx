@@ -1,7 +1,7 @@
 import React from 'react'
 
 function DownloadAds() {
-    const downloadImgStyle = 'border-[2px] border-[#232A4E] rounded-[13px] h-[3rem] w-[10rem]'
+    const downloadImgStyle = 'border-[2px] border-[#232A4E] rounded-[13px] h-[3rem] w-[10rem] max-sm:w-[9rem]'
   return (
     <div className='download'>
       <div className='download_images flex'>

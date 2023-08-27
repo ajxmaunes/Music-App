@@ -3,7 +3,7 @@ import Feature from './Feature'
 
 function Experience() {
   return (
-    <div className="experience flex flex-col items-center justify-start px-[5rem] max-sm:px-[0] bg-[#020917] h-[60rem] max-sm:h-[78rem] pt-[18rem] mt-[-10rem] relative z-[2] rounded-b-[5rem] max-sm:rounded-b-[3rem]">
+    <div className="experience flex flex-col items-center justify-start px-[5rem] max-sm:px-[0] bg-[#020917] h-[60rem] max-sm:h-[72rem] pt-[18rem] mt-[-10rem] relative z-[2] rounded-b-[5rem] max-sm:rounded-b-[3rem]">
         {/* titld icon */}
         <img src={require("../img/Path 318.png")} alt="" className="w-[5rem] max-sm:mt-[-6rem]" />
         {/* heading */}
