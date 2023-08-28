@@ -12,7 +12,7 @@ function Download() {
         <span>
             <b>App now!</b>
         </span>
-        <span className='text-[1rem] text-gray-400 px-[15rem] max-sm:px-[1rem] text-center mt-[1rem]'>
+        <span className='text-[1rem] text-gray-400 md:px-[15rem] max-sm:px-[1rem] text-center mt-[1rem]'>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum non amet accusantium, nulla vero suscipit.
         </span>
         {/* download ads */}

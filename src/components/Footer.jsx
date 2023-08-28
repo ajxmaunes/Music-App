@@ -23,7 +23,7 @@ function Footer() {
             </div>
         </div>
         {/* Details */}
-            <span className="text-[1rem] text-gray-400 px-[15rem] max-sm:px-[1rem] text-center mt-[4rem]">   
+            <span className="text-[1rem] text-gray-400 md:px-[15rem] max-sm:px-[1rem] text-center mt-[4rem]">   
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur dolore aspernatur natus magnam, doloremque sequi fuga.
             </span>
         

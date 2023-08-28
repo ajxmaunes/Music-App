@@ -31,9 +31,9 @@ function Search() {
     };
     
   return (
-        <div className="search relative h-[65rem] max-sm:h-[58rem] px-[5rem] max-sm:px-[1.5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] sm:flex items-center justify-between rounded-b-[5rem] max-sm:rounded-b-[3rem]">
+        <div className="search relative h-[65rem] max-md:h-[58rem] px-[5rem] max-sm:px-[1.5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] md:flex items-center justify-between rounded-b-[5rem] max-sm:rounded-b-[3rem]">
             {/* left side */}
-            <div className="text flex-1 px-[5rem] max-sm:px-[0rem] max-sm:invisible" >
+            <div className="text flex-1 px-[5rem] max-sm:px-[0rem] max-md:invisible" >
                 <motion.img
                     variants={bg}
                     animate={`${elementIsVisible}`}
@@ -79,7 +79,7 @@ function Search() {
                 />
             </div>
             {/* right side */}
-            <div className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem] max-sm:pt-[3rem]">
+            <div className="right flex items-start flex-col justify-start flex-1 h-[100%] pt-[9rem] max-md:pt-[4rem] max-sm:pt-[3rem]">
                     {/* Search */}
                     <div className="searchbar flex justify-start w-[100%] ">
                         <input type='text'

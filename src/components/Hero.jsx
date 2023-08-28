@@ -40,26 +40,26 @@ function Hero() {
     
   return (
     <VisibilitySensor onChange={(isVisible) => setElementIsVisible(isVisible)} minTopValue={300}>
-    <div className="wrapper bg-[#081730] sm:flex items-center justify-center px-[10rem] max-sm:px-[1rem] rounded-b-[5rem] max-sm:rounded-b-[3rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3] max-sm:mt-[-1px]">
+    <div className="wrapper bg-[#081730] md:flex items-center justify-center px-[10rem] max-md:px-[2rem] max-sm:px-[1rem] rounded-b-[5rem] max-sm:rounded-b-[3rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3] max-md:mt-[-1px]">
         {/* left side */}
-        <div className="headings flex flex-col items-start max-sm:items-center justify-center h-[100%] text-[3rem] max-sm:text-[2.3rem] ">
-            <span>Experience The</span> 
+        <div className="headings flex flex-col items-start max-sm:items-center max-md:items-center justify-center h-[100%] text-[3rem] max-sm:text-[2.3rem] ">
+            <span className=' max-md:mt-[-3rem]'>Experience The</span> 
             <span>
                 <b>Best Quality Music</b>
             </span>
-            <span className='text-[15px] text-[#525D6E] max-sm:text-center'>
+            <span className='text-[15px] text-[#525D6E] max-sm:text-center max-md:text-center'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, maiores?
                 <br />
                 Lorem ipsum dolor sit amet consectetur.
             </span>
             {/* download ads */}
-            <div className='max-sm:text-center'>
+            <div className='max-sm:text-center max-md:text-center'>
                 <span className='text-[13px]'>Download now on IOS and Android</span>
                 <DownloadAds />
             </div>
         </div>
         {/* right side */}
-        <div className="images relative w-[50%] max-sm:invisible">
+        <div className="images relative w-[50%] max-sm:invisible max-md:invisible">
             <motion.img
                 variants={bg}
                 animate={`${elementIsVisible}`}

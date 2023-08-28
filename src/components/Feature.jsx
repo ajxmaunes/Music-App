@@ -18,7 +18,7 @@ function Feature({ icon, title}) {
       onChange={(isVisible) => setElementIsVisible(isVisible)}
       // minTopValue={100}
     >
-    <div className="feature flex items-center justify-center flex-col relative text-center mx-12 max-sm:mt-[1.5rem]">
+    <div className="feature flex items-center justify-center flex-col relative text-center mx-12 max-md:mx-2 max-sm:mt-[1.5rem]">
       {/* icon */}
       <motion.div
         variants={variant}
