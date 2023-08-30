@@ -31,7 +31,7 @@ function Search() {
     };
     
   return (
-        <div className="search relative h-[65rem] max-md:h-[58rem] px-[5rem] max-sm:px-[1.5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] md:flex items-center justify-between rounded-b-[5rem] max-sm:rounded-b-[3rem]">
+        <div className="search relative h-[65rem] max-md:h-[58rem] px-[5rem] max-sm:px-[1.5rem] bg-[black] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] md:flex items-center justify-between rounded-b-[5rem] max-sm:rounded-b-[3rem]">
             {/* left side */}
             <div className="text flex-1 px-[5rem] max-sm:px-[0rem] max-md:invisible" >
                 <motion.img
@@ -41,9 +41,9 @@ function Search() {
                         duration: 1,
                         type: "ease-out",
                     }}
-                    src={require("../img/backgraphics.png")}
+                    src={require("../img/wave2.jpg")}
                     alt=""
-                    className="absolute top-[22rem] left-[-42rem]"
+                    className="absolute top-[5rem] left-[-42rem]"
                 />
                  <motion.img
                     src={require("../img/d1.png")}

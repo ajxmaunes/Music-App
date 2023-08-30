@@ -11,8 +11,8 @@ function App() {
     <div className="App text-white overflow-hidden ">
       <Header />
       <Hero />
-      <Experience />
       <Search />
+      <Experience />
       <Download />
       <Footer />
     </div>

@@ -40,7 +40,7 @@ function Hero() {
     
   return (
     <VisibilitySensor onChange={(isVisible) => setElementIsVisible(isVisible)} minTopValue={300}>
-    <div className="wrapper bg-[#081730] md:flex items-center justify-center px-[10rem] max-md:px-[2rem] max-sm:px-[1rem] rounded-b-[5rem] max-sm:rounded-b-[3rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3] max-md:mt-[-1px]">
+    <div className="wrapper bg-[black] md:flex items-center justify-center px-[10rem] max-md:px-[2rem] max-sm:px-[1rem] rounded-b-[5rem] max-sm:rounded-b-[3rem] w-[100%] h-[35rem] max-sm:h-[30rem] relative z-[3] max-md:mt-[-1px]">
         {/* left side */}
         <div className="headings flex flex-col items-start max-sm:items-center max-md:items-center justify-center h-[100%] text-[3rem] max-sm:text-[2.3rem] ">
             <span className=' max-md:mt-[-3rem]'>Experience The</span> 
@@ -63,8 +63,8 @@ function Hero() {
             <motion.img
                 variants={bg}
                 animate={`${elementIsVisible}`}
-                transition={{ duration: 1, type: "ease-out" }} 
-                src={require("../img/backgraphics.png")} 
+                transition={{duration: 1, type: "ease-out" }} 
+                src={require("../img/wave.jpg")} 
                 alt="" 
                 className='absolute top-[-8rem] left-[19rem]'
             />

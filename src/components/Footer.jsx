@@ -1,11 +1,10 @@
 import React from 'react'
-import CenterMenu from './CenterMenu'
 import { Facebook, Twitter, YouTube, LinkedIn } from "@material-ui/icons"
 
 function Footer() {
     const SocialStyle = "rounded-full border-2 border-whit p-2 mr-[2rem] ml-[2rem] max-sm:mr-[1rem] max-sm:ml-[1rem]"
   return (
-    <div className=" footer flex flex-col items-center justify-start px-[5rem] max-sm:px-[0rem] bg-[#081730] h-[35rem] max-sm:h-[30rem] pt-[18rem] mt-[-10rem] relative z-[-1]">
+    <div className=" footer flex flex-col items-center justify-start px-[5rem] max-sm:px-[0rem] bg-[black] h-[35rem] max-sm:h-[30rem] pt-[18rem] mt-[-10rem] relative z-[-1]">
         {/* <CenterMenu /> */}
         {/* Social Icons */}
         <div className='flex w-[100%] justify-center max-sm:mt-[-4rem]'>
