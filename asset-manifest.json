@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Music-App/static/css/main.2da61aaa.css",
-    "main.js": "/Music-App/static/js/main.13ae94a5.js",
+    "main.css": "/Music-App/static/css/main.0fe0c321.css",
+    "main.js": "/Music-App/static/js/main.94aa810d.js",
     "static/media/d1.png": "/Music-App/static/media/d1.16796f0d0de87b0b0ddc.png",
     "static/media/backgraphics.png": "/Music-App/static/media/backgraphics.e05d8e3687294dad4fdf.png",
     "static/media/p 1.png": "/Music-App/static/media/p 1.88acef8f825538d39c87.png",
@@ -19,11 +19,11 @@
     "static/media/Group 2.png": "/Music-App/static/media/Group 2.15c32f9651f4022159d9.png",
     "static/media/p 4.png": "/Music-App/static/media/p 4.fcc6fc8fbc64a172a475.png",
     "index.html": "/Music-App/index.html",
-    "main.2da61aaa.css.map": "/Music-App/static/css/main.2da61aaa.css.map",
-    "main.13ae94a5.js.map": "/Music-App/static/js/main.13ae94a5.js.map"
+    "main.0fe0c321.css.map": "/Music-App/static/css/main.0fe0c321.css.map",
+    "main.94aa810d.js.map": "/Music-App/static/js/main.94aa810d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da61aaa.css",
-    "static/js/main.13ae94a5.js"
+    "static/css/main.0fe0c321.css",
+    "static/js/main.94aa810d.js"
   ]
 }
