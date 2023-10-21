@@ -3,7 +3,7 @@ import DownloadAds from './DownloadAds'
 
 function Download() {
   return (
-    <div className="flex flex-col items-center justify-start px-[5rem] max-sm:px-[1rem] bg-[#020917] h-[48rem] max-sm:h-[45rem] pt-[18rem] mt-[-10rem]  relative z-[0] rounded-b-[5rem] max-sm:rounded-b-[3rem]">
+    <div className="flex flex-col items-center justify-start px-[5rem] max-sm:px-[1rem] bg-gray-900 h-[45rem] max-sm:h-[45rem] pt-[18rem] mt-[-10rem]  relative z-[0] rounded-b-[5rem] max-sm:rounded-b-[3rem]">
       {/* tild icon or path icon */}
       <img src={require("../img/Path 318.png")} alt="" className='w-[5rem] max-sm:mt-[-3rem]' />
       {/* heading */}
